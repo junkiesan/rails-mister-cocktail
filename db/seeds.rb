@@ -10,3 +10,9 @@ ingredients["drinks"].each do |ingredient|
   Ingredient.create!(name: ingredient["strIngredient1"])
   puts "#{ingredient} created"
 end
+
+# cocktails.each do |drink|
+
+# image = open("https://picsum.photos/200/300?#{name}")
+# cocktail = Cocktail.new(name: name)
+# cockatil.photo.attach(io: image, filename: "#{name}.png", content_type:'image/png')
